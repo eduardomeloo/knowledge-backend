@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const { mongoUrl } = require('../.env')
+const { mongoUrl } = require('./db_info')
 
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch(e => {

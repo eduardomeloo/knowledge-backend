@@ -1,4 +1,4 @@
-const { authSecret } = require('../.env')
+const authSecret = require('./db_info')
 const passport = require('passport')
 const passportJwt = require('passport-jwt')
 const { where } = require('./db')

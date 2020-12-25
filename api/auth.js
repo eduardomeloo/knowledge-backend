@@ -1,4 +1,4 @@
-const { authSecret } = require('../.env')
+const { authSecret } = require('../config/db_info')
 const jwt = require('jwt-simple')
 const bcrypt = require('bcrypt-nodejs')
 
